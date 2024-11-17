@@ -1,6 +1,88 @@
-body{
-  background: red;
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  background-color: #f1f1e4;
 }
-h3{
-  margin-top: 40px;
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+#add-comic {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#add-comic form {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#add-comic input[type="text"] {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #aca3a3;
+  width: 200px;
+}
+
+#add-comic button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-comic button:hover {
+  background-color: #45a049;
+}
+
+.comic-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.comic-item {
+  background-color: #818080b0;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+.comic-item span {
+  margin: 0 10px;
+}
+
+button.move-to-read,
+button.move-to-want {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button.move-to-read:hover,
+button.move-to-want:hover {
+  background-color: #0b7dda;
+}
+
+.fa-trash {
+  color: #f44336;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.fa-trash:hover {
+  color: #d32f2f;
 }
