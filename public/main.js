@@ -1,7 +1,7 @@
 const moveToRead = document.getElementsByClassName("move-to-read");
 const moveToWant = document.getElementsByClassName("move-to-want");
 const trash = document.getElementsByClassName("fa-trash");
-
+//
 Array.from(moveToRead).forEach(function(element) {
     element.addEventListener('click', function() {
         const title = this.parentNode.childNodes[1].innerText;
